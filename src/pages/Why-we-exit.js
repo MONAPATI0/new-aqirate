@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { Container } from 'react-bootstrap';
 import Layout from '../layout';
-import image3 from '../images/bg-Whyweexist-p.png'
+// import image3 from '../images/bg-Whyweexist-p.png'
 // import Img from "gatsby-image"
 // import { useStaticQuery, graphql } from "gatsby"
 const Whyweexit = () => {
@@ -10,7 +10,7 @@ const Whyweexit = () => {
 
             <div>
                 <Layout>
-                    <img src={image3} style={{ height: "300px", width: "100%" }} />
+                    {/* <img src={image3} style={{ height: "300px", width: "100%" }} /> */}
                     <div className="d-flex" style={{ position: "relative", top: "-14.9rem", left: "40px", fontSize: "12px" }}>
                         <p className="text-white" ><Link to="/" className="text-white">Home&nbsp;</Link>/</p><p><Link to="/About-Us" className="text-white">&nbsp;About Us /</Link></p><p><Link to="/" className="text-white">&nbsp;Why We Exist</Link></p>
                     </div>
