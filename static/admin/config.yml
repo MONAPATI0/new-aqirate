@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: aslamsk/new-Aiqrate
+  repo: MONAPATI0/new-aqirate
   branch: master
 
 media_folder: static/images
