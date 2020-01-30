@@ -15,37 +15,37 @@ const Approach = () => {
             className="d-flex"
             style={{
               position: "relative",
-              top: "-18.9rem",
-              left: "75px",
+              top: "-14.9rem",
+              left: "40px",
               fontSize: "12px",
             }}
           >
             <p className="text-white ">
-              <Link to="/" style={{ color: "white" }}>
+              <Link to="/" className="text-white">
                 Home&nbsp;
               </Link>
               /
             </p>
             <p>
-              <Link to="/About-Us" style={{ color: "white" }}>
+              <Link to="/About-Us" className="text-white">
                 &nbsp;About Us /
               </Link>
             </p>
             <p>
-              <Link to="/" style={{ color: "white" }}>
+              <Link to="/" className="text-white">
                 &nbsp;In the News
               </Link>
             </p>
           </div>
           <h2
             className="text-white"
-            style={{ position: "relative", top: "-16rem", left: "75px" }}
+            style={{ position: "relative", top: "-12rem", left: "40px" }}
           >
             In the News
           </h2>
           <Container className="mb-3">
            
-            <Row>
+            <Row style={{marginTop:"-40px"}}>
               <CardGroup>
                 <Card>
                   <Card.Body>

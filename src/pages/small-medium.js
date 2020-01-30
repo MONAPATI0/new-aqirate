@@ -15,7 +15,7 @@ const SMALLMEDIUM = () => {
             <img style={{ margin: 0 }} src={img3} alt="Landing3" style={{ height: '40vh', width: '100%' }} />
             <div className="page-title">
               <h5 className="page-links">
-                <Link to="/">Home</Link>/<Link>consulting</Link>Small & Medium sized Businesses (SMBs)
+                <Link to="/" className="text-white">Home</Link >/<Link to="/Consulting" className="text-white">consulting</Link>&nbsp;/&nbsp;Small & Medium sized Businesses (SMBs)
               </h5>
               <p className="title-text">Small & Medium sized Businesses (SMBs)</p>
             </div>

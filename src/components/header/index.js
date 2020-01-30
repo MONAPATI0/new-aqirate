@@ -11,7 +11,7 @@ import image from '../../../static/favicons/aiqrate-logo-final-blackbg.png';
 const Header = () => {
   return (
      <div>
-      <Navbar expand="lg" className="fixed-top d-flex justify-content-around">
+      <Navbar expand="lg" className="fixed-top">
         <Navbar.Brand>
           <Link to="/">
             <img style={{ margin: 0, height: '40px' }} src={image} alt="logo" className="logo" />
@@ -54,8 +54,6 @@ const Header = () => {
                 </li>
               </ul>
             </li>
-            {/* {------------ Small Screen-Advisory ---------------} */}
-
             <NavDropdown title="ADVISORY" className="d-lg-none d-sm-block" id="nav-dropdown">
               <li className="nav-sub-text">
                 <Link to="/AiSeniorLeader/">AI for CXOs & Senior Leaders</Link>
@@ -73,9 +71,6 @@ const Header = () => {
                 <Link to="/AiScale/">AI@scale</Link>
               </li>
             </NavDropdown>
-
-            {/* ------------------------------------- */}
-
             <li className="nav-item dropdown  lg-toggle">
               <Link
                 to="/Consulting/"
@@ -216,13 +211,7 @@ const Header = () => {
                 </li>
               </ul>
             </li>
-            {/* {------------ Small Screen-Consulting ---------------} */}
-
             <NavDropdown title="CONSULTING" className="d-lg-none d-sm-block" id="nav-dropdown">
-              {/* <li class="dropdown-submenu"> */}
-
-              {/*--------- SubMenu ----------*/}
-
               <NavDropdown title="Enterprises" className="d-lg-none d-sm-block" id="nav-dropdown">
                 <li className="nav-sub-text">
                   <Link className="dropdown-item" to="/MasterclassEnterprises/">
@@ -275,9 +264,6 @@ const Header = () => {
                   </Link>
                 </li>
               </NavDropdown>
-
-              {/*--------- SubMenu ----------*/}
-
               <NavDropdown title="Global Capability Centres (GCCs)" className="d-lg-none d-sm-block" id="nav-dropdown">
                 <li className="nav-sub-text">
                   <Link className="dropdown-item" to="/MasterClassForGCC/">
@@ -342,9 +328,6 @@ const Header = () => {
                 <Link to="/public-sector-iba/">Public Sector Institutions & Business Associations</Link>
               </li>
             </NavDropdown>
-
-            {/* ------------------------------------- */}
-
             <li style={{ fontSize: '14px', marginTop: '9px' }}>
               <Link to="/1/" className="aiqration-nav-link" style={{ color: 'white' }}>
                 AIQRATIONS

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { Container } from 'react-bootstrap';
 import Layout from '../layout';
-// import image3 from '../images/bg-Whyweexist-p.png'
+import image3 from '../images/bg-Whyweexist-p.png'
 // import Img from "gatsby-image"
 // import { useStaticQuery, graphql } from "gatsby"
 const Whyweexit = () => {
@@ -10,13 +10,13 @@ const Whyweexit = () => {
 
             <div>
                 <Layout>
-                    {/* <img src={image3} style={{ height: "300px", width: "100%" }} /> */}
-                    <div className="d-flex" style={{ position: "relative", top: "-18.9rem", left: "75px", fontSize: "12px" }}>
-                        <p className="text-white" ><Link to="/" style={{ color: "white" }}>Home&nbsp;</Link>/</p><p><Link to="/About-Us" style={{ color: "white" }}>&nbsp;About Us /</Link></p><p><Link to="/" style={{ color: "white" }}>&nbsp;Why We Exist</Link></p>
+                    <img src={image3} style={{ height: "300px", width: "100%" }} />
+                    <div className="d-flex" style={{ position: "relative", top: "-14.9rem", left: "40px", fontSize: "12px" }}>
+                        <p className="text-white" ><Link to="/" className="text-white">Home&nbsp;</Link>/</p><p><Link to="/About-Us" className="text-white">&nbsp;About Us /</Link></p><p><Link to="/" className="text-white">&nbsp;Why We Exist</Link></p>
                     </div>
-                    <h2 className="text-white" style={{ position: "relative", top: "-16rem", left: "75px" }}>Why We Exist</h2>
+                    <h2 className="text-white" style={{ position: "relative", top: "-12rem", left: "40px" }}>Why We Exist</h2>
                     <Container>
-                        <p className="normal-para" style={{ fontFamily: '"Open Sans", Sans-serif', color: '#1e252f', fontWeight: '100px', fontSize: '17px' }}>In the age of the <strong>industry 4.0</strong> revolution, AI continues to dominate the technology & business landscape.  Under the aegis of<strong>transformation, disruption</strong>
+                        <p className="normal-para" style={{ fontFamily: '"Open Sans", Sans-serif', color: '#1e252f', fontWeight: '100px', fontSize: '17px', marginTop:"-50px" }}>In the age of the <strong>industry 4.0</strong> revolution, AI continues to dominate the technology & business landscape.  Under the aegis of<strong>transformation, disruption</strong>
                             and innovation, AI has several applications and impact areas which usher a new change in how we make decisions in the enterprise and personal spheres.
                             Traditionally, human decisions are to a large extent based on intuition, gut and historical data.  In the age of AI, several of our decisions will be taken by algorithms.
                             Leveraging AI, the ability to mimic the human brain and the ensuing ability to sense, comprehend and act will significantly go up and will result in emergence of

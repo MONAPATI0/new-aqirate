@@ -10,14 +10,14 @@ const BeingPositive = () => {
             <div>
                 <Layout>
                     <img src={image3} alt="no image" style={{ height: "300px", width: "100%" }} />
-                    <div className="d-flex" style={{ position: "relative", top: "-18.9rem", left: "75px", fontSize: "12px" }}>
-                        <p className="text-white normal-para" ><Link to="/" style={{ color: "white" }}>Home&nbsp;</Link>/</p><p><Link to="/About-Us" style={{ color: "white" }}>&nbsp;About Us /</Link></p><p><Link to="/" style={{ color: "white" }}>&nbsp; Being AI +Ve</Link></p>
+                    <div className="d-flex" style={{ position: "relative", top: "-14.9rem", left: "40px", fontSize: "12px" }}>
+                        <p className="text-white normal-para" ><Link to="/" className="text-white">Home&nbsp;</Link>/</p><p><Link to="/About-Us" className="text-white">&nbsp;About Us /</Link></p><p><Link to="/" className="text-white">&nbsp; Being AI +Ve</Link></p>
                     </div>
-                    <h2 className="text-white" style={{ position: "relative", top: "-16rem", left: "75px" }}> Being AI +Ve</h2>
+                    <h2 className="text-white" style={{ position: "relative", top: "-12rem", left: "40px" }}> Being AI +Ve</h2>
                     <Container>
                         <Row>
                             <Col className="mb-5">
-                                <p className="normal-para">
+                                <p className="normal-para" style={{marginTop:"-50px"}}>
                                     Our world still faces pressing systemic challenges that affect humanity at a large scale.  From our <strong>complex and
                                 labyrinthine legal systems, traffic congestions, water scarcity, pollution and sanitation to the </strong>
                                     <strong>inefficiencies in our healthcare sector, large-scale problems still abound.</strong> The need of the hour is to better

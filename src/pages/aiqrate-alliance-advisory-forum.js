@@ -16,10 +16,10 @@ const AllianceAdvisory = () => {
             <div>
                 <Layout>
                     <img src={image3} alt="no image" style={{ height: "300px", width: "100%" }} />
-                    <div className="d-flex" style={{ position: "relative", top: "-18.9rem", left: "75px", fontSize: "12px" }}>
-                        <p className="text-white" ><Link to="/" style={{ color: "white" }}>Home&nbsp;</Link>/</p><p><Link to="/About-Us" style={{ color: "white" }}>&nbsp;About Us /</Link></p><p><Link to="/" style={{ color: "white" }}>&nbsp; AIQRATE Alliance Advisory Forum</Link></p>
+                    <div className="d-flex" style={{ position: "relative",  top: "-14.9rem", left: "40px", fontSize: "12px" }}>
+                        <p className="text-white" ><Link to="/" className="text-white">Home&nbsp;</Link>/</p><p><Link className="text-white" to="/About-Us">&nbsp;About Us /</Link></p><p><Link to="/" className="text-white">&nbsp; AIQRATE Alliance Advisory Forum</Link></p>
                     </div>
-                    <h2 className="text-white" style={{ position: "relative", top: "-16rem", left: "75px" }}> AIQRATE Alliance Advisory Forum</h2>
+                    <h2 className="text-white" style={{ position: "relative", top: "-12rem", left: "40px" }}> AIQRATE Alliance Advisory Forum</h2>
                     <Container style={{marginTop:"-70px"}}>
                 <Row>
                 <p className="normal-para" >

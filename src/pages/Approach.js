@@ -11,13 +11,13 @@ const Approach = () => {
             <div>
                 <Layout>
                     <img src={image3} style={{ height: "300px", width: "100%" }} />
-                    <div className="d-flex" style={{ position: "relative", top: "-18.9rem", left: "75px", fontSize: "12px" }}>
-                        <p className="text-white " ><Link to="/" style={{ color: "white" }}>Home&nbsp;</Link>/</p><p><Link to="/About-Us" style={{ color: "white" }}>&nbsp;About Us /</Link></p><p><Link to="/" style={{ color: "white" }}>&nbsp; Our Approach</Link></p>
+                    <div className="d-flex" style={{ position: "relative", top: "-14.9rem", left: "40px", fontSize: "12px" }}>
+                        <p className="text-white " ><Link to="/" className="text-white">Home&nbsp;</Link>/</p><p><Link to="/About-Us" className="text-white">&nbsp;About Us /</Link></p><p><Link to="/" className="text-white">&nbsp; Our Approach</Link></p>
                     </div>
-                    <h2 className="text-white" style={{ position: "relative", top: "-16rem", left: "75px" }}> Our Approach</h2>
+                    <h2 className="text-white" style={{ position: "relative", top: "-12rem", left: "40px" }}> Our Approach</h2>
                     <Container>
-                        <h5 className="mt-5 text-blue" style={{ borderLeft: '5px solid blue', color: "blue" }}>&nbsp;&nbsp;&nbsp;Enabling clients reimagine their decision making with AI strategy in a transformation, innovation and &nbsp;&nbsp;disruption driven
-                &nbsp;world</h5>
+                        <h4 className="text-blue" style={{ borderLeft: '5px solid blue', color: "blue", marginTop:"-50px" }}>&nbsp;&nbsp;&nbsp;Enabling clients reimagine their decision making with AI strategy in a transformation, innovation and &nbsp;&nbsp;disruption driven
+                &nbsp;world</h4>
                         <p className="mt-5 normal-para">In today’s fast paced VUCA world, leaders face unprecedented challenges. They need to navigate through volatility while staying focused on strategy,
                     business performance and culture.  <strong>Artificial Intelligence</strong> is fast becoming a game changing catalyst and a strategic differentiator and almost a panacea to
                     solve large, complex and unresolved problems.  To be an <strong>AI powered organization,</strong> leaders not only need to have a broad understanding of <strong>AI strategy, </strong>

@@ -1,0 +1,29 @@
+.block1 {
+    display: none;
+}
+
+.block2{
+    display:block;
+}
+
+@media  screen and (max-width: 460px)  {
+    .block1{
+        display: block !important;
+    }
+    .matter{
+        margin-left:0px !important; 
+    }
+    .center {
+        text-align: center !important;
+    }
+    .block2{
+        display: none;
+    }
+
+    .block {
+        display: block;
+    }
+    .block3 {
+        display: block;
+    }
+}

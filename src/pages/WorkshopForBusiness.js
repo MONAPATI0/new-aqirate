@@ -9,7 +9,7 @@ const WorkshopForBusiness = () => {
         <img style={{ margin: 0 }} src={img20} alt="Landing3" style={{ height: '40vh', width: '100%' }} />
         <Container>
           <p className="normal-para">
-            Enterprises are gearing to curate AI within their strategy and planning sessions. However, the leadership
+            Enterprises are gearing to curate AI within theirategy and planning sessions. However, the leadership
             struggles with the What, Why and How of including AI in their strategies. An ideal place to create an
             intervention to correct this would be during the business strategy sessions, planning workshops and strategy
             offsites.
